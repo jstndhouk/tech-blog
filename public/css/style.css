@@ -1,0 +1,59 @@
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+.toolbar{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #A45B37;
+  text-decoration: none;
+  color: #CDBE6A !important;
+  align-items: center;
+}
+
+a{
+  color:inherit
+}
+.toolbar h1{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  align-content: center;
+}
+
+.title{
+  align-self:flex-start;
+  width: 100%;
+  background-color: darkolivegreen;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding:20px;
+}
+.mainheader{
+  display:flex;
+  flex-direction: column;
+  
+}
